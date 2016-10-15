@@ -10,7 +10,7 @@ public class TestCat {
 			System.out.println("CAT");
 			cat.meow();
 			System.out.println("Age="+cat.age+"\tWeight="+cat.weight);
-			System.out.println("\n在类TestCat中显式调用类中的main方法");
+			System.out.println("\n在类TestCat中显式调用类Cat中的main方法");
 			cat.main(args);
 	}
 }
